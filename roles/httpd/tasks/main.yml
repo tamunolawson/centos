@@ -4,5 +4,5 @@
     with_items: "{{app_install}}"
 
   - name: This will copy index.html file
-    copy: src=* dest=/var/www/html/index.html
+    copy: src=/udata/file.index.html dest=/var/www/html/index.html
     notify: start apache
