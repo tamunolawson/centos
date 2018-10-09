@@ -1,4 +1,0 @@
----
-   app_install:
-     - httpd
-     - httpd-tools
