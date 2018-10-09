@@ -1,7 +1,7 @@
 ---
   - name: This playbook will install Apache
-    yum: name={{item}} state=latest
-    with_items: "{{app_install}}"
+    yum: name={{app_install}} state=latest
+    #with_items: "{{app_install}}"
     tags: apache_install
 
   - name: This will copy index.html file
