@@ -5,6 +5,6 @@
     tags: apache_install
 
   - name: This will copy index.html file
-    copy: src=/udata/file.index.html dest=/var/www/html/index.html
+    copy: src=/udata/file/index.html dest=/var/www/html/index.html
     tags: copy_file
     notify: start apache
