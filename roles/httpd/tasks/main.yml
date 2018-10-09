@@ -1,0 +1,4 @@
+---
+  - name: This playbook will install Apache
+    yum: name=httpd state-latest
+    notify: Start Apache

@@ -1,0 +1,7 @@
+---
+  - name: This playbook will install Apache on all CentOS
+    hosts: all
+    become: true
+
+    roles:
+      - httpd
